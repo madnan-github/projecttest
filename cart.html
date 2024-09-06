@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1>E-Commerce Site</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="cart.html">Cart <span id="cart-count">0</span></a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="cart">
+            <h2>Your Cart</h2>
+            <div id="cart-list"></div>
+            <p id="empty-cart-message">Your cart is empty.</p>
+            <button id="checkout" style="display:none;">Proceed to Checkout</button>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 E-Commerce Site. All rights reserved.</p>
+    </footer>
+
+    <script src="dist/app.js"></script>
+    <script src="dist/cart.js"></script>
+</body>
+</html>
